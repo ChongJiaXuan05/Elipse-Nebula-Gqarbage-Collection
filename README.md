@@ -23,7 +23,7 @@
 ```
 # Eclipse Nebula
 
-A turn-based roguelike game played in the terminal, written in Java.
+A turn-based roguelike src.game played in the terminal, written in Java.
 
 You play as a contracted worker exploring an abandoned moon facility. Scavenge food and tools, avoid fire and poison, and watch out for the alarm. If it goes off, the doors lock and every Undead in the facility comes hunting for you.
 
@@ -48,7 +48,7 @@ You play as a contracted worker exploring an abandoned moon facility. Scavenge f
 
 ## Design
 
-The game is built on an existing turn-based Java engine framework (the `edu.monash.fit2099.engine` package). All gameplay code is in `src/game`.
+The src.game is built on an existing turn-based Java engine framework (the `src.edu.monash.fit2099.engine` package). All gameplay code is in `src/src.game`.
 
 A few of the main design decisions:
 
@@ -61,7 +61,7 @@ UML class diagrams and the full design rationale are in `docs/design`.
 ## Project structure
 
 ```
-src/game/
+src/src.game/
 ├── actions/      Player actions (attack, consume, unlock door, first aid)
 ├── actors/       Enemies and the AutonomousActor base class
 ├── alarm/        Alarm service and interfaces
