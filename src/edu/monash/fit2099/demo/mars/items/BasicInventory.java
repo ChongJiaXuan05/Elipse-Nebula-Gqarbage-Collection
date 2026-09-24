@@ -1,7 +1,7 @@
-package src.edu.monash.fit2099.demo.mars.items;
+package edu.monash.fit2099.demo.mars.items;
 
-import src.edu.monash.fit2099.engine.items.Inventory;
-import src.edu.monash.fit2099.engine.items.Item;
+import edu.monash.fit2099.engine.items.Inventory;
+import edu.monash.fit2099.engine.items.Item;
 
 public class BasicInventory extends Inventory {
     @Override

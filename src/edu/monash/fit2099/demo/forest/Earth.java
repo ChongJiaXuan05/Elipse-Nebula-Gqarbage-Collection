@@ -1,9 +1,9 @@
-package src.edu.monash.fit2099.demo.forest;
+package edu.monash.fit2099.demo.forest;
 
-import src.edu.monash.fit2099.engine.displays.Display;
-import src.edu.monash.fit2099.engine.positions.DefaultGroundCreator;
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.edu.monash.fit2099.engine.positions.World;
+import edu.monash.fit2099.engine.displays.Display;
+import edu.monash.fit2099.engine.positions.DefaultGroundCreator;
+import edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.engine.positions.World;
 
 import java.util.Arrays;
 import java.util.List;

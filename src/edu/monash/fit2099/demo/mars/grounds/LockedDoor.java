@@ -1,10 +1,10 @@
-package src.edu.monash.fit2099.demo.mars.grounds;
+package edu.monash.fit2099.demo.mars.grounds;
 
-import src.edu.monash.fit2099.demo.mars.actions.WindowSmashAction;
-import src.edu.monash.fit2099.engine.actions.ActionList;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.positions.Ground;
-import src.edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.demo.mars.actions.WindowSmashAction;
+import edu.monash.fit2099.engine.actions.ActionList;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.positions.Ground;
+import edu.monash.fit2099.engine.positions.Location;
 
 
 public class LockedDoor extends Ground {

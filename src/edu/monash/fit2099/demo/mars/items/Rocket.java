@@ -1,10 +1,10 @@
-package src.edu.monash.fit2099.demo.mars.items;
+package edu.monash.fit2099.demo.mars.items;
 
-import src.edu.monash.fit2099.demo.mars.DemoAbilities;
-import src.edu.monash.fit2099.engine.actions.ActionList;
-import src.edu.monash.fit2099.engine.actions.MoveActorAction;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.demo.mars.DemoAbilities;
+import edu.monash.fit2099.engine.actions.ActionList;
+import edu.monash.fit2099.engine.actions.MoveActorAction;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.positions.Location;
 
 public class Rocket extends MartianItem {
 

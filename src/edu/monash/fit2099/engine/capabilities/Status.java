@@ -1,7 +1,7 @@
-package src.edu.monash.fit2099.engine.capabilities;
+package edu.monash.fit2099.engine.capabilities;
 
-import src.edu.monash.fit2099.engine.GameEntity;
-import src.edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.engine.GameEntity;
+import edu.monash.fit2099.engine.positions.Location;
 
 public interface Status {
 

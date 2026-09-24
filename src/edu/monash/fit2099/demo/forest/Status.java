@@ -1,4 +1,4 @@
-package src.edu.monash.fit2099.demo.forest;
+package edu.monash.fit2099.demo.forest;
 
 /**
  * Use this enum class to represent a status.

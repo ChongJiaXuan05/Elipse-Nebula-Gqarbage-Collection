@@ -1,17 +1,17 @@
-package src.edu.monash.fit2099.demo.mars.behaviours;
+package edu.monash.fit2099.demo.mars.behaviours;
 
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.actions.Action;
-import src.edu.monash.fit2099.engine.positions.Exit;
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.edu.monash.fit2099.engine.positions.Location;
-import src.edu.monash.fit2099.engine.actions.MoveActorAction;
-import src.edu.monash.fit2099.engine.behaviours.Behaviour;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.actions.Action;
+import edu.monash.fit2099.engine.positions.Exit;
+import edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.engine.actions.MoveActorAction;
+import edu.monash.fit2099.engine.behaviours.Behaviour;
 
 /**
  * A class that figures out a MoveAction that will move the actor one step 
  * closer to a target Actor.
- * @see src.edu.monash.fit2099.demo.mars.Application
+ * @see edu.monash.fit2099.demo.mars.Application
  *
  * Created by:
  * @author Riordan D. Alfredo

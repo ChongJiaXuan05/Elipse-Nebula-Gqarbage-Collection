@@ -1,6 +1,6 @@
-package src.edu.monash.fit2099.demo.forest;
+package edu.monash.fit2099.demo.forest;
 
-import src.edu.monash.fit2099.engine.displays.Display;
+import edu.monash.fit2099.engine.displays.Display;
 
 public class Application {
 

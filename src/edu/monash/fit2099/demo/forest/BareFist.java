@@ -1,6 +1,6 @@
-package src.edu.monash.fit2099.demo.forest;
+package edu.monash.fit2099.demo.forest;
 
-import src.edu.monash.fit2099.engine.weapons.IntrinsicWeapon;
+import edu.monash.fit2099.engine.weapons.IntrinsicWeapon;
 
 /**
  * Class representing a bare fist

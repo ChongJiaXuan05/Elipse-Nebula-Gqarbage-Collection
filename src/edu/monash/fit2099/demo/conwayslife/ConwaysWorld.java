@@ -1,8 +1,8 @@
-package src.edu.monash.fit2099.demo.conwayslife;
+package edu.monash.fit2099.demo.conwayslife;
 
-import src.edu.monash.fit2099.engine.GameEngineException;
-import src.edu.monash.fit2099.engine.displays.Display;
-import src.edu.monash.fit2099.engine.positions.World;
+import edu.monash.fit2099.engine.GameEngineException;
+import edu.monash.fit2099.engine.displays.Display;
+import edu.monash.fit2099.engine.positions.World;
 
 public class ConwaysWorld extends World {
 

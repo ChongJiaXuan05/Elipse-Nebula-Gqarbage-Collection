@@ -1,10 +1,10 @@
-package src.edu.monash.fit2099.demo.conwayslife;
+package edu.monash.fit2099.demo.conwayslife;
 
 import java.util.List;
 
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.edu.monash.fit2099.engine.positions.GroundCreator;
-import src.edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.engine.positions.GroundCreator;
+import edu.monash.fit2099.engine.positions.Location;
 
 public class ConwayGameMap extends GameMap {
 

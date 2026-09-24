@@ -1,7 +1,7 @@
-package src.edu.monash.fit2099.demo.conwayslife;
+package edu.monash.fit2099.demo.conwayslife;
 
-import src.edu.monash.fit2099.engine.positions.Ground;
-import src.edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.engine.positions.Ground;
+import edu.monash.fit2099.engine.positions.Location;
 
 /**
  * WARNING: this might not be the best design to follow :)

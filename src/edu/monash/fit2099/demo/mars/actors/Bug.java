@@ -1,13 +1,13 @@
-package src.edu.monash.fit2099.demo.mars.actors;
+package edu.monash.fit2099.demo.mars.actors;
 
-import src.edu.monash.fit2099.demo.forest.BasicInventory;
-import src.edu.monash.fit2099.demo.mars.actions.KickAction;
-import src.edu.monash.fit2099.engine.actions.Action;
-import src.edu.monash.fit2099.engine.actions.ActionList;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.behaviours.Behaviour;
-import src.edu.monash.fit2099.engine.displays.Display;
-import src.edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.demo.forest.BasicInventory;
+import edu.monash.fit2099.demo.mars.actions.KickAction;
+import edu.monash.fit2099.engine.actions.Action;
+import edu.monash.fit2099.engine.actions.ActionList;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.behaviours.Behaviour;
+import edu.monash.fit2099.engine.displays.Display;
+import edu.monash.fit2099.engine.positions.GameMap;
 
 import java.util.*;
 

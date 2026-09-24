@@ -1,6 +1,6 @@
-package src.edu.monash.fit2099.demo.conwayslife;
+package edu.monash.fit2099.demo.conwayslife;
 
-import src.edu.monash.fit2099.engine.capabilities.Status;
+import edu.monash.fit2099.engine.capabilities.Status;
 
 public class Dead implements Status {
     /**

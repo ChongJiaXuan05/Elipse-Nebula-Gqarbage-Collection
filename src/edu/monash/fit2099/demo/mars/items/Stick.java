@@ -1,7 +1,7 @@
-package src.edu.monash.fit2099.demo.mars.items;
+package edu.monash.fit2099.demo.mars.items;
 
-import src.edu.monash.fit2099.engine.items.Item;
-import src.edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.engine.items.Item;
+import edu.monash.fit2099.engine.positions.Location;
 
 public class Stick extends Item {
 

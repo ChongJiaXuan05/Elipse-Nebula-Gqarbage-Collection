@@ -1,21 +1,21 @@
-package src.edu.monash.fit2099.engine;
+package edu.monash.fit2099.engine;
 
-import src.edu.monash.fit2099.engine.statistics.Statistic;
-import src.edu.monash.fit2099.engine.statistics.StatisticOperations;
-import src.edu.monash.fit2099.engine.capabilities.Status;
-import src.edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.engine.statistics.Statistic;
+import edu.monash.fit2099.engine.statistics.StatisticOperations;
+import edu.monash.fit2099.engine.capabilities.Status;
+import edu.monash.fit2099.engine.positions.Location;
 
 import java.lang.reflect.Modifier;
 import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * Base class for all objects that can exist in the src.game.
+ * Base class for all objects that can exist in the game.
  *
  * This version supports: - Multiple status effects of any type (e.g., multiple
  * poisons). - Static abilities via Enums.
  *
- * Example: A src.game entity may have several status effects (burning, poisoned,
+ * Example: A game entity may have several status effects (burning, poisoned,
  * stunned, etc.) by implementing interfaces, abilities such as CAN_BE_BURNED.
  *
  * @author Riordan Alfredo
@@ -30,9 +30,9 @@ public abstract class GameEntity {
     private final Set<Enum<?>> abilitySet = new HashSet<>();
     /**
      * A flexible and extensible statistics system that allows new stats to be
-     * added, which enables more interesting src.game mechanics. For example, in
+     * added, which enables more interesting game mechanics. For example, in
      * addition to hit points, another statistic that represents its stamina can
-     * be added. If a src.game entity runs out of stamina, it will be unable to perform
+     * be added. If a game entity runs out of stamina, it will be unable to perform
      * certain actions, such as attacking.
      */
     private final Map<Enum<?>, Statistic<Integer>> statistics = new HashMap<>();
@@ -41,14 +41,14 @@ public abstract class GameEntity {
      * A method for checking whether this entity has a specific statistic.
      *
      * @param name the name of the statistic, such as BaseStatistics.HEALTH
-     * @return true if the src.game entity has the queried statistic, false otherwise
+     * @return true if the game entity has the queried statistic, false otherwise
      */
     public boolean hasStatistic(Enum<?> name) {
         return this.statistics.containsKey(name);
     }
 
     /**
-     * A method for adding a statistic to the src.game entity.
+     * A method for adding a statistic to the game entity.
      *
      * @param name the name of the statistic to be added, which must be a value
      * of an enumeration, such as BaseStatistic.STAMINA.
@@ -60,7 +60,7 @@ public abstract class GameEntity {
     }
 
     /**
-     * A method for removing an existing statistic from the src.game entity
+     * A method for removing an existing statistic from the game entity
      *
      * @param name the name of the statistic to be removed, which must be a value of an enumeration,
      *             succh as BaseStatistic.STAMINA
@@ -101,7 +101,7 @@ public abstract class GameEntity {
                 this.statistics.get(name).update(value);
                 break;
             default:
-                throw new IllegalArgumentException("Invalid operation for modifying the value of src.game entity's statistic.");
+                throw new IllegalArgumentException("Invalid operation for modifying the value of game entity's statistic.");
         }
     }
 
@@ -130,7 +130,7 @@ public abstract class GameEntity {
                 this.statistics.get(name).updateMaximum(value);
                 break;
             default:
-                throw new IllegalArgumentException("Invalid operation for modifying the maximum value of src.game entity's statistic.");
+                throw new IllegalArgumentException("Invalid operation for modifying the maximum value of game entity's statistic.");
         }
     }
 

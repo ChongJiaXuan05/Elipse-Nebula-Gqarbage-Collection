@@ -1,7 +1,7 @@
-package src.edu.monash.fit2099.demo.conwayslife;
+package edu.monash.fit2099.demo.conwayslife;
 
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.engine.positions.Location;
 
 public class ConwayLocation extends Location {
 

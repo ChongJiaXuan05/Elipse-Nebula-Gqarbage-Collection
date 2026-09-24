@@ -1,8 +1,8 @@
-package src.edu.monash.fit2099.demo.conwayslife;
+package edu.monash.fit2099.demo.conwayslife;
 
-import src.edu.monash.fit2099.engine.actions.Action;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.engine.actions.Action;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.positions.GameMap;
 
 public class SleepAction extends Action {
     private int sleepTime = 200;

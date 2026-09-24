@@ -1,25 +1,25 @@
-package src.edu.monash.fit2099.demo.mars;
+package edu.monash.fit2099.demo.mars;
 
-import src.edu.monash.fit2099.demo.forest.Dirt;
-import src.edu.monash.fit2099.demo.mars.actors.Bug;
-import src.edu.monash.fit2099.demo.mars.actors.Player;
-import src.edu.monash.fit2099.demo.mars.behaviours.FollowBehaviour;
-import src.edu.monash.fit2099.demo.mars.behaviours.SpitBehaviour;
-import src.edu.monash.fit2099.demo.mars.grounds.Crater;
-import src.edu.monash.fit2099.demo.mars.grounds.Floor;
-import src.edu.monash.fit2099.demo.mars.grounds.LockedDoor;
-import src.edu.monash.fit2099.demo.mars.grounds.Wall;
-import src.edu.monash.fit2099.demo.mars.items.MartianItem;
-import src.edu.monash.fit2099.demo.mars.items.Rocket;
-import src.edu.monash.fit2099.demo.mars.items.SpaceSuit;
-import src.edu.monash.fit2099.demo.mars.items.Stick;
-import src.edu.monash.fit2099.engine.GameEngineException;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.displays.Display;
-import src.edu.monash.fit2099.engine.items.Item;
-import src.edu.monash.fit2099.engine.positions.DefaultGroundCreator;
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.edu.monash.fit2099.engine.positions.World;
+import edu.monash.fit2099.demo.forest.Dirt;
+import edu.monash.fit2099.demo.mars.actors.Bug;
+import edu.monash.fit2099.demo.mars.actors.Player;
+import edu.monash.fit2099.demo.mars.behaviours.FollowBehaviour;
+import edu.monash.fit2099.demo.mars.behaviours.SpitBehaviour;
+import edu.monash.fit2099.demo.mars.grounds.Crater;
+import edu.monash.fit2099.demo.mars.grounds.Floor;
+import edu.monash.fit2099.demo.mars.grounds.LockedDoor;
+import edu.monash.fit2099.demo.mars.grounds.Wall;
+import edu.monash.fit2099.demo.mars.items.MartianItem;
+import edu.monash.fit2099.demo.mars.items.Rocket;
+import edu.monash.fit2099.demo.mars.items.SpaceSuit;
+import edu.monash.fit2099.demo.mars.items.Stick;
+import edu.monash.fit2099.engine.GameEngineException;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.displays.Display;
+import edu.monash.fit2099.engine.items.Item;
+import edu.monash.fit2099.engine.positions.DefaultGroundCreator;
+import edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.engine.positions.World;
 import java.util.Arrays;
 import java.util.List;
 
@@ -65,7 +65,7 @@ public class Application {
             Actor player = new Player("The Player", 100);
             Bug bug = new Bug();
 
-            // place entities on the src.game
+            // place entities on the game
             world.addPlayer(player, gameMap.at(2, 3));
             gameMap.at(1, 1).addItem(rocket);
             gameMap.at(8, 2).addItem(stick);
@@ -77,7 +77,7 @@ public class Application {
 
             gameMap.at(0, 3).addActor(bug);
 
-            // run the src.game.
+            // run the game.
             world.run();
         } catch (GameEngineException exception) {
             // Game engine exceptions

@@ -1,6 +1,6 @@
-package src.edu.monash.fit2099.demo.forest;
+package edu.monash.fit2099.demo.forest;
 
-import src.edu.monash.fit2099.engine.positions.Ground;
+import edu.monash.fit2099.engine.positions.Ground;
 
 /**
  * A class that represents bare dirt.

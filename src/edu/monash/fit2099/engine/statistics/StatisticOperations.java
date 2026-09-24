@@ -1,4 +1,4 @@
-package src.edu.monash.fit2099.engine.statistics;
+package edu.monash.fit2099.engine.statistics;
 
 /**
  * Statistic Operations

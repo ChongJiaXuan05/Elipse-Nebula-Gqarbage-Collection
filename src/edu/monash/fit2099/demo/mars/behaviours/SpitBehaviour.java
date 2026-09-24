@@ -1,11 +1,11 @@
-package src.edu.monash.fit2099.demo.mars.behaviours;
+package edu.monash.fit2099.demo.mars.behaviours;
 
-import src.edu.monash.fit2099.engine.actions.Action;
-import src.edu.monash.fit2099.engine.positions.NumberRange;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.edu.monash.fit2099.engine.positions.Location;
-import src.edu.monash.fit2099.engine.behaviours.Behaviour;
+import edu.monash.fit2099.engine.actions.Action;
+import edu.monash.fit2099.engine.positions.NumberRange;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.engine.behaviours.Behaviour;
 
 import java.util.Random;
 

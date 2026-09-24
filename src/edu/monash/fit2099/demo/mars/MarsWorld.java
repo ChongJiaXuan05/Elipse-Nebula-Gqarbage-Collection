@@ -1,7 +1,7 @@
-package src.edu.monash.fit2099.demo.mars;
+package edu.monash.fit2099.demo.mars;
 
-import src.edu.monash.fit2099.engine.displays.Display;
-import src.edu.monash.fit2099.engine.positions.World;
+import edu.monash.fit2099.engine.displays.Display;
+import edu.monash.fit2099.engine.positions.World;
 
 public class MarsWorld extends World {
     /**

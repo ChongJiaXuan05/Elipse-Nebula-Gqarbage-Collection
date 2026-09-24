@@ -1,4 +1,4 @@
-package src.edu.monash.fit2099.engine.statistics;
+package edu.monash.fit2099.engine.statistics;
 
 /**
  * A class that represents a basic attribute of an actor, such as health.
@@ -10,7 +10,7 @@ public class BaseStatistic implements Statistic<Integer> {
     private int points;
 
     /**
-     * At the start of the src.game, the points of the attributes match the maximum points.
+     * At the start of the game, the points of the attributes match the maximum points.
      * @param maximumPoints the maximum points of the attribute
      */
     public BaseStatistic(int maximumPoints) {

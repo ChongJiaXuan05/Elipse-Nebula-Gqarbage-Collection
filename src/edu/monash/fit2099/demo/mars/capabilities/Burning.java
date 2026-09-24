@@ -1,8 +1,8 @@
-package src.edu.monash.fit2099.demo.mars.capabilities;
+package edu.monash.fit2099.demo.mars.capabilities;
 
-import src.edu.monash.fit2099.engine.GameEntity;
-import src.edu.monash.fit2099.engine.capabilities.Status;
-import src.edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.engine.GameEntity;
+import edu.monash.fit2099.engine.capabilities.Status;
+import edu.monash.fit2099.engine.positions.Location;
 
 
 public class Burning implements Status {
