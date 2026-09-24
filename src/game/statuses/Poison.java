@@ -1,9 +1,9 @@
-package src.game.statuses;
+package game.statuses;
 
-import src.edu.monash.fit2099.engine.GameEntity;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.capabilities.Status;
-import src.edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.engine.GameEntity;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.capabilities.Status;
+import edu.monash.fit2099.engine.positions.Location;
 
 /**
  * Damage-over-time status effect applied by contaminated consumables.

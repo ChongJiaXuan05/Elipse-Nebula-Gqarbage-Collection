@@ -1,7 +1,7 @@
-package src.game;
+package game;
 
 /**
- * A repository for the src.game's high-fidelity, next-generation graphical assets
+ * A repository for the game's high-fidelity, next-generation graphical assets
  * (also known as a massive, hardcoded {@code String}).
  * Font obtained from: <a href="https://patorjk.com/software/taag/#p=display&f=Modular&t=">link</a>
  * Font: Modular

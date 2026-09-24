@@ -1,6 +1,6 @@
-package src.game.items;
+package game.items;
 
-import src.edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.actors.Actor;
 
 /**
  * Behavior contract for anything that can be consumed by an actor.

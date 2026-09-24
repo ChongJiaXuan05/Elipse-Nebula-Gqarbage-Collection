@@ -1,4 +1,4 @@
-package src.game.alarm;
+package game.alarm;
 
 /**
  * Contract for actors that can trigger the facility alarm.

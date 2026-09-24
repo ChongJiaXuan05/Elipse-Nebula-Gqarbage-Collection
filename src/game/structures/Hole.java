@@ -1,9 +1,9 @@
-package src.game.structures;
+package game.structures;
 
-import src.edu.monash.fit2099.engine.GameEngineException;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.positions.Ground;
-import src.edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.engine.GameEngineException;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.positions.Ground;
+import edu.monash.fit2099.engine.positions.Location;
 
 import java.util.List;
 import java.util.Random;

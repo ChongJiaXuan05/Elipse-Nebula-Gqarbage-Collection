@@ -1,6 +1,6 @@
-package src.game.alarm;
+package game.alarm;
 
-import src.edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.actors.Actor;
 
 import java.util.Optional;
 
@@ -24,7 +24,7 @@ public interface AlarmService {
     void activateForTurns(Actor triggeringWorker, int turns);
 
     /**
-     * Advances alarm timers by one src.game turn.
+     * Advances alarm timers by one game turn.
      */
     void tickTurn();
 

@@ -1,9 +1,9 @@
-package src.game;
+package game;
 
-import src.edu.monash.fit2099.engine.displays.Display;
-import src.edu.monash.fit2099.engine.items.Inventory;
-import src.edu.monash.fit2099.engine.items.Item;
-import src.game.items.ItemStatistics;
+import edu.monash.fit2099.engine.displays.Display;
+import edu.monash.fit2099.engine.items.Inventory;
+import edu.monash.fit2099.engine.items.Item;
+import game.items.ItemStatistics;
 
 /**
  * At its core, this is just an oversized {@code ArrayList}.

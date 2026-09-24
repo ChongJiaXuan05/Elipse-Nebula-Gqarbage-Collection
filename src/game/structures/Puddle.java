@@ -1,17 +1,17 @@
-package src.game.structures;
+package game.structures;
 
-import src.edu.monash.fit2099.engine.actions.ActionList;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.positions.Ground;
-import src.edu.monash.fit2099.engine.positions.Location;
-import src.game.actions.ConsumeAction;
-import src.game.items.Ability;
-import src.game.items.Consumable;
-import src.game.statuses.Poison;
+import edu.monash.fit2099.engine.actions.ActionList;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.positions.Ground;
+import edu.monash.fit2099.engine.positions.Location;
+import game.actions.ConsumeAction;
+import game.items.Ability;
+import game.items.Consumable;
+import game.statuses.Poison;
 
 /**
  * A small, stationary body of mysterious liquid on the ground.
- * In a standard video src.game, this would just be water. On a deprecated moon
+ * In a standard video game, this would just be water. On a deprecated moon
  * in the Eclipse Nebula, it could be anything from spilled engine coolant to
  * highly corrosive alien saliva. Step in it at your own risk.
  */

@@ -1,4 +1,4 @@
-package src.game.items;
+package game.items;
 
 /**
  * Marker abilities used as capabilities on actors and items.

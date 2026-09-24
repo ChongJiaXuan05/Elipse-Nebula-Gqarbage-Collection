@@ -1,4 +1,4 @@
-package src.game.actors;
+package game.actors;
 
 /**
  * High-level role categories used for actor ability checks.

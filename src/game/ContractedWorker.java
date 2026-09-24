@@ -1,16 +1,16 @@
-package src.game;
+package game;
 
-import src.edu.monash.fit2099.engine.actions.Action;
-import src.edu.monash.fit2099.engine.actions.ActionList;
-import src.edu.monash.fit2099.engine.actions.DoNothingAction;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.displays.Display;
-import src.edu.monash.fit2099.engine.displays.Menu;
-import src.edu.monash.fit2099.engine.items.Inventory;
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.game.actors.ActorRole;
-import src.game.alarm.AlarmService;
-import src.game.alarm.SecurityTriggerable;
+import edu.monash.fit2099.engine.actions.Action;
+import edu.monash.fit2099.engine.actions.ActionList;
+import edu.monash.fit2099.engine.actions.DoNothingAction;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.displays.Display;
+import edu.monash.fit2099.engine.displays.Menu;
+import edu.monash.fit2099.engine.items.Inventory;
+import edu.monash.fit2099.engine.positions.GameMap;
+import game.actors.ActorRole;
+import game.alarm.AlarmService;
+import game.alarm.SecurityTriggerable;
 
 /**
  * This brave soul is capable of performing complex tasks such as picking up trash

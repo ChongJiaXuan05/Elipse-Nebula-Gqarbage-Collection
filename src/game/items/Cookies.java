@@ -1,13 +1,13 @@
-package src.game.items;
+package game.items;
 
-import src.edu.monash.fit2099.engine.actions.ActionList;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.actors.ActorStatistics;
-import src.edu.monash.fit2099.engine.items.Item;
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.edu.monash.fit2099.engine.statistics.BaseStatistic;
-import src.edu.monash.fit2099.engine.statistics.StatisticOperations;
-import src.game.actions.ConsumeAction;
+import edu.monash.fit2099.engine.actions.ActionList;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.actors.ActorStatistics;
+import edu.monash.fit2099.engine.items.Item;
+import edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.engine.statistics.BaseStatistic;
+import edu.monash.fit2099.engine.statistics.StatisticOperations;
+import game.actions.ConsumeAction;
 
 /**
  * A multi-use consumable item that can be eaten up to a fixed number of times.

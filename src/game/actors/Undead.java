@@ -1,11 +1,11 @@
-package src.game.actors;
+package game.actors;
 
-import src.edu.monash.fit2099.engine.weapons.IntrinsicWeapon;
-import src.game.BasicInventory;
-import src.game.alarm.AlarmService;
-import src.game.behaviours.AttackWorkerBehaviour;
-import src.game.behaviours.ChaseWorkerBehaviour;
-import src.game.behaviours.WanderBehaviour;
+import edu.monash.fit2099.engine.weapons.IntrinsicWeapon;
+import game.BasicInventory;
+import game.alarm.AlarmService;
+import game.behaviours.AttackWorkerBehaviour;
+import game.behaviours.ChaseWorkerBehaviour;
+import game.behaviours.WanderBehaviour;
 
 /**
  * A hostile autonomous enemy that hunts workers, especially during alarms.

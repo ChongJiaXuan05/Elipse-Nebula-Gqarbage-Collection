@@ -1,13 +1,13 @@
-package src.game.behaviours;
+package game.behaviours;
 
-import src.edu.monash.fit2099.engine.actions.Action;
-import src.edu.monash.fit2099.engine.actions.DoNothingAction;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.behaviours.Behaviour;
-import src.edu.monash.fit2099.engine.positions.Exit;
-import src.edu.monash.fit2099.engine.positions.Location;
-import src.game.actors.ActorRole;
-import src.game.alarm.AlarmService;
+import edu.monash.fit2099.engine.actions.Action;
+import edu.monash.fit2099.engine.actions.DoNothingAction;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.behaviours.Behaviour;
+import edu.monash.fit2099.engine.positions.Exit;
+import edu.monash.fit2099.engine.positions.Location;
+import game.actors.ActorRole;
+import game.alarm.AlarmService;
 
 import java.util.ArrayDeque;
 import java.util.HashMap;

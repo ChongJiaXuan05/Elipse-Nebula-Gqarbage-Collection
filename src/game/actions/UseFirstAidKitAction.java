@@ -1,11 +1,11 @@
-package src.game.actions;
+package game.actions;
 
-import src.edu.monash.fit2099.engine.actions.Action;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.actors.ActorStatistics;
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.edu.monash.fit2099.engine.statistics.StatisticOperations;
-import src.game.items.FirstAidKit;
+import edu.monash.fit2099.engine.actions.Action;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.actors.ActorStatistics;
+import edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.engine.statistics.StatisticOperations;
+import game.items.FirstAidKit;
 
 /**
  * Action that applies the First Aid Kit effect and starts its cooldown.

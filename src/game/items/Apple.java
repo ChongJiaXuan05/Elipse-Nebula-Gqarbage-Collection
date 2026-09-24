@@ -1,12 +1,12 @@
-package src.game.items;
+package game.items;
 
-import src.edu.monash.fit2099.engine.actions.ActionList;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.items.Item;
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.edu.monash.fit2099.engine.statistics.BaseStatistic;
-import src.game.actions.ConsumeAction;
-import src.game.statuses.Poison;
+import edu.monash.fit2099.engine.actions.ActionList;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.items.Item;
+import edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.engine.statistics.BaseStatistic;
+import game.actions.ConsumeAction;
+import game.statuses.Poison;
 
 /**
  * A consumable apple with beneficial or harmful effects based on sterilisation ability.

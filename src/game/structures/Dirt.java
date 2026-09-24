@@ -1,6 +1,6 @@
-package src.game.structures;
+package game.structures;
 
-import src.edu.monash.fit2099.engine.positions.Ground;
+import edu.monash.fit2099.engine.positions.Ground;
 
 /**
  * While other classes get to be security doors, mysterious flasks, or highly

@@ -1,11 +1,11 @@
-package src.game.structures;
+package game.structures;
 
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.displays.Display;
-import src.edu.monash.fit2099.engine.positions.Ground;
-import src.edu.monash.fit2099.engine.positions.Location;
-import src.game.actors.ActorRole;
-import src.game.statuses.Burn;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.displays.Display;
+import edu.monash.fit2099.engine.positions.Ground;
+import edu.monash.fit2099.engine.positions.Location;
+import game.actors.ActorRole;
+import game.statuses.Burn;
 
 /**
  * A temporary hazard tile that burns actors and reverts to its previous ground.

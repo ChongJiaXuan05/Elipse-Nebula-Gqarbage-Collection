@@ -1,6 +1,6 @@
-package src.game.alarm;
+package game.alarm;
 
-import src.edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.actors.Actor;
 
 import java.util.Optional;
 

@@ -1,9 +1,9 @@
-package src.game.structures;
+package game.structures;
 
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.positions.Ground;
-import src.edu.monash.fit2099.engine.positions.Location;
-import src.game.alarm.AlarmService;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.positions.Ground;
+import edu.monash.fit2099.engine.positions.Location;
+import game.alarm.AlarmService;
 
 /**
  * Its primary purpose in the universe is to halt the progress of underpaid

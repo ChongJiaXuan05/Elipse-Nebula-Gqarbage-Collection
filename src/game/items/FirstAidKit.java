@@ -1,12 +1,12 @@
-package src.game.items;
+package game.items;
 
-import src.edu.monash.fit2099.engine.actions.ActionList;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.items.Item;
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.edu.monash.fit2099.engine.positions.Location;
-import src.edu.monash.fit2099.engine.statistics.BaseStatistic;
-import src.game.actions.UseFirstAidKitAction;
+import edu.monash.fit2099.engine.actions.ActionList;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.items.Item;
+import edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.engine.statistics.BaseStatistic;
+import game.actions.UseFirstAidKitAction;
 
 /**
  * A consumable utility item that increases maximum health and then enters cooldown.

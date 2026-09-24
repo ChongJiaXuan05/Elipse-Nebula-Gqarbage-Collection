@@ -1,10 +1,10 @@
-package src.game.actions;
+package game.actions;
 
-import src.edu.monash.fit2099.engine.actions.Action;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.items.Item;
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.game.items.Consumable;
+import edu.monash.fit2099.engine.actions.Action;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.items.Item;
+import edu.monash.fit2099.engine.positions.GameMap;
+import game.items.Consumable;
 
 /**
  * Action that applies a consumable's effect to an actor.

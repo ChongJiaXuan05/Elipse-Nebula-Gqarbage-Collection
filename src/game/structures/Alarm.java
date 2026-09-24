@@ -1,9 +1,9 @@
-package src.game.structures;
+package game.structures;
 
-import src.edu.monash.fit2099.engine.positions.Ground;
-import src.edu.monash.fit2099.engine.positions.Location;
-import src.game.alarm.AlarmService;
-import src.game.alarm.SecurityTriggerable;
+import edu.monash.fit2099.engine.positions.Ground;
+import edu.monash.fit2099.engine.positions.Location;
+import game.alarm.AlarmService;
+import game.alarm.SecurityTriggerable;
 
 /**
  * A pressure-plate-like ground tile that triggers the alarm on entry.

@@ -1,14 +1,14 @@
-package src.game.behaviours;
+package game.behaviours;
 
-import src.edu.monash.fit2099.engine.actions.Action;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.behaviours.Behaviour;
-import src.edu.monash.fit2099.engine.positions.Exit;
-import src.edu.monash.fit2099.engine.positions.Location;
-import src.edu.monash.fit2099.engine.weapons.IntrinsicWeapon;
-import src.game.actions.AttackActorAction;
-import src.game.actors.ActorRole;
-import src.game.alarm.AlarmService;
+import edu.monash.fit2099.engine.actions.Action;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.behaviours.Behaviour;
+import edu.monash.fit2099.engine.positions.Exit;
+import edu.monash.fit2099.engine.positions.Location;
+import edu.monash.fit2099.engine.weapons.IntrinsicWeapon;
+import game.actions.AttackActorAction;
+import game.actors.ActorRole;
+import game.alarm.AlarmService;
 
 /**
  * Behaviour that attacks adjacent workers, prioritising the alarm trigger when active.

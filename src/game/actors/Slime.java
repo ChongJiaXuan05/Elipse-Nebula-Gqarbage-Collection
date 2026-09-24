@@ -1,8 +1,8 @@
-package src.game.actors;
+package game.actors;
 
-import src.game.BasicInventory;
-import src.game.behaviours.ConsumeBehaviour;
-import src.game.behaviours.WanderBehaviour;
+import game.BasicInventory;
+import game.behaviours.ConsumeBehaviour;
+import game.behaviours.WanderBehaviour;
 
 /**
  * A basic autonomous creature that consumes nearby items and wanders.

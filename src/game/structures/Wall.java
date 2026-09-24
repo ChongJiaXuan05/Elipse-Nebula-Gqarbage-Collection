@@ -1,7 +1,7 @@
-package src.game.structures;
+package game.structures;
 
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.positions.Ground;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.positions.Ground;
 
 /**
  * A class representing a solid wall. Yes, that's it.

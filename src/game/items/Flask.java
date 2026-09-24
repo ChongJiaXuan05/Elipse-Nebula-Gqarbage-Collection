@@ -1,11 +1,11 @@
-package src.game.items;
+package game.items;
 
-import src.edu.monash.fit2099.engine.actions.ActionList;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.items.Item;
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.edu.monash.fit2099.engine.statistics.BaseStatistic;
-import src.game.actions.ConsumeAction;
+import edu.monash.fit2099.engine.actions.ActionList;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.items.Item;
+import edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.engine.statistics.BaseStatistic;
+import game.actions.ConsumeAction;
 
 /**
  * Due to severe budget cuts, the flask is only permitted to hold five (5)

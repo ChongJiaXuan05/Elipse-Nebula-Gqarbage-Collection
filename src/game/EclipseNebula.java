@@ -1,17 +1,17 @@
-package src.game;
+package game;
 
-import src.edu.monash.fit2099.engine.displays.Display;
-import src.edu.monash.fit2099.engine.items.Inventory;
-import src.edu.monash.fit2099.engine.positions.DefaultGroundCreator;
-import src.edu.monash.fit2099.engine.positions.GameMap;
-import src.edu.monash.fit2099.engine.GameEngineException;
-import src.edu.monash.fit2099.engine.positions.World;
-import src.game.actors.Slime;
-import src.game.actors.Undead;
-import src.game.alarm.AlarmFacility;
-import src.game.alarm.AlarmService;
-import src.game.items.*;
-import src.game.structures.*;
+import edu.monash.fit2099.engine.displays.Display;
+import edu.monash.fit2099.engine.items.Inventory;
+import edu.monash.fit2099.engine.positions.DefaultGroundCreator;
+import edu.monash.fit2099.engine.positions.GameMap;
+import edu.monash.fit2099.engine.GameEngineException;
+import edu.monash.fit2099.engine.positions.World;
+import game.actors.Slime;
+import game.actors.Undead;
+import game.alarm.AlarmFacility;
+import game.alarm.AlarmService;
+import game.items.*;
+import game.structures.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -24,7 +24,7 @@ public class EclipseNebula extends World {
     private AlarmService alarmService;
 
     /**
-     * Creates the src.game world wrapper with a display.
+     * Creates the game world wrapper with a display.
      *
      * @param display display used by the world
      */
@@ -33,7 +33,7 @@ public class EclipseNebula extends World {
     }
 
     /**
-     * Initialise maps, actors, items, and grounds of the src.game world.
+     * Initialise maps, actors, items, and grounds of the game world.
      * @throws Exception in case if anything goes wrong...
      */
     public void initialise() throws Exception {
@@ -120,7 +120,7 @@ public class EclipseNebula extends World {
     }
 
     /**
-     * Runs one src.game-loop cycle and advances global alarm state.
+     * Runs one game-loop cycle and advances global alarm state.
      *
      * @throws GameEngineException if the engine encounters a loop error
      */

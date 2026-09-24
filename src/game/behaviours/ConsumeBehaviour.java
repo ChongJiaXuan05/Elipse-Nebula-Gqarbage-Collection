@@ -1,12 +1,12 @@
-package src.game.behaviours;
+package game.behaviours;
 
-import src.edu.monash.fit2099.engine.actions.Action;
-import src.edu.monash.fit2099.engine.actors.Actor;
-import src.edu.monash.fit2099.engine.items.Item;
-import src.edu.monash.fit2099.engine.behaviours.Behaviour;
-import src.edu.monash.fit2099.engine.positions.Location;
-import src.game.actions.ConsumeAction;
-import src.game.items.Consumable;
+import edu.monash.fit2099.engine.actions.Action;
+import edu.monash.fit2099.engine.actors.Actor;
+import edu.monash.fit2099.engine.items.Item;
+import edu.monash.fit2099.engine.behaviours.Behaviour;
+import edu.monash.fit2099.engine.positions.Location;
+import game.actions.ConsumeAction;
+import game.items.Consumable;
 
 /**
  * Behaviour that consumes the first consumable item available on the actor's tile.

@@ -1,11 +1,11 @@
-package src.game;
+package game;
 
-import src.edu.monash.fit2099.engine.displays.Display;
+import edu.monash.fit2099.engine.displays.Display;
 
 /**
- * The starting point of the src.game. Think of it as the Big Bang, but written in Java.
- * It also prints the src.game banner, because every new universe deserves a dramatic title sequence.
- * Without this class, your src.game is just a collection of highly ambitious, unemployed objects.
+ * The starting point of the game. Think of it as the Big Bang, but written in Java.
+ * It also prints the game banner, because every new universe deserves a dramatic title sequence.
+ * Without this class, your game is just a collection of highly ambitious, unemployed objects.
  *
  * @see FancyMessage
  * @see EclipseNebula
@@ -14,7 +14,7 @@ import src.edu.monash.fit2099.engine.displays.Display;
 public class Application {
 
     /**
-     * The main method that runs the src.game, prints the src.game banner, and catches any exception being thrown by the src.game.
+     * The main method that runs the game, prints the game banner, and catches any exception being thrown by the game.
      */
     public static void main(String[] args) {
         Display display = new Display();

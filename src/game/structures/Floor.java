@@ -1,6 +1,6 @@
-package src.game.structures;
+package game.structures;
 
-import src.edu.monash.fit2099.engine.positions.Ground;
+import edu.monash.fit2099.engine.positions.Ground;
 
 /**
  * Not lava. Not spikes. Not an elaborate trap. Just a perfectly flat surface

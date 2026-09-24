@@ -1,14 +1,14 @@
-package src.game;
+package game;
 
-import src.edu.monash.fit2099.engine.items.Inventory;
-import src.edu.monash.fit2099.engine.items.Item;
+import edu.monash.fit2099.engine.items.Inventory;
+import edu.monash.fit2099.engine.items.Item;
 
 /**
  * Primarily used as a temporary holding cell for legendary potions, rare
  * artifacts, and random shiny rocks the player will hoard "just in case,"
  * but ultimately never use during the final boss fight.
  *
- * @see src.edu.monash.fit2099.engine.actors.Actor
+ * @see edu.monash.fit2099.engine.actors.Actor
  * @see Inventory
  * @author Adrian Kristanto
  */

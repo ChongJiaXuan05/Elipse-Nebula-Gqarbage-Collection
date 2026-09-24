@@ -1,7 +1,7 @@
-package src.game.items;
+package game.items;
 
-import src.edu.monash.fit2099.engine.items.Item;
-import src.edu.monash.fit2099.engine.statistics.BaseStatistic;
+import edu.monash.fit2099.engine.items.Item;
+import edu.monash.fit2099.engine.statistics.BaseStatistic;
 
 /**
  * Portable item that grants sterilisation ability while carried.
